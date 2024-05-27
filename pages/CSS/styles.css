@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap');
+
+body {
+display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom, #000dff, rgb(39, 246, 242),#b3e4f4, #ffffff);
+}
+
+ /* ======================== HEADER ========================  */
+
+.header {
+    background: linear-gradient(to bottom, #ffff00, rgb(255, 119, 0));
+    margin: 5% 9%;
+    padding:10px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #ffffff;
+    box-shadow: inset 0 0 10px #e2dbdb;
+    border-radius: 90px ;
+}
+
+.encabezado {
+    font-family: Holtwood One SC;
+    color: rgb(255, 255, 255); 
+    text-shadow: 2px 2px 4px #0c0c0c;
+    font-size: 50px;
+}
+
+ /* ======================== MAIN ========================  */
+
+.contenedor-main {
+    margin: 1% 9%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #ffffff;
+    box-shadow: inset 0 0 10px #e2dbdb;
+    border-radius: 15px ;
+}
+
+.tittle-main {
+    font-family: Holtwood One SC;
+    color: rgb(255, 255, 255); 
+    text-shadow: 2px 2px 0px #0c0c0c;
+    font-weight: 100;
+    font-size: 25px;
+    margin: 3% 1% 2% 1%;
+}
+
+/* ============ DIV1 =========== */
+
+.div1 {
+    background: linear-gradient(to bottom,#ffff00, rgb(255, 119, 0));
+    margin: 0% 2% 2% 2%;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 2px solid #ffffff;
+    box-shadow: inset 0 0 10px #e2dbdb;
+    border-radius: 15px ;
+}
+
+.tittle-div {
+    font-family: 'Holtwood One SC', serif;
+    color: rgb(255, 255, 255);
+    text-shadow: 
+        -1px -1px 0 #000,  
+         1px -1px 0 #000,
+        -1px  1px 0 #000,
+         1px  1px 0 #000; /* Crea un contorno negro alrededor del texto */
+    font-weight: 100;
+    font-size: 15px;
+    margin: 2% 1% 0% 2%;
+    padding: 0px;
+}
+
+.imagen-div {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 3% 5% 2% 5%;
+    width: 90%;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+
+.parrafo-1{
+    text-align: justify;
+    font-family: sans-serif;
+    color: rgb(252, 252, 252); 
+    margin: 0% 25% 3% 1%;
+}
+
+.parrafo-2 {
+    font-family: sans-serif;
+    color: rgb(255, 255, 255); 
+    margin: 0% 1% 3% 1%;
+}
+
+.parrafo-3 {
+    font-family: sans-serif;
+    color: rgb(255, 255, 255); 
+    margin: 0% 1% 2% 1%;
+}
+
+.button-enlace {
+    margin: 0% 1% 2% 0%;
+}
+
+.button-div {
+    font-family: sans-serif;
+    color: white;
+    background-color: rgb(255, 0, 0);
+    font-size: 30px;
+    border-radius: 5px;
+    border: 2px solid #fcfafa;
+    font-weight: bold;
+}
+
+.button-div:hover {
+    background: linear-gradient(to bottom, rgb(39, 246, 242), #ffffff);
+    color: black; 
+}
+
+/* ============ DIV2 =========== */
+
+
+ .div2 {
+    background: linear-gradient(to bottom,#ffff00, rgb(255, 119, 0));
+    margin: 5% 2% 2% 2%;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 2px solid #ffffff;
+    box-shadow: inset 0 0 10px #e2dbdb;
+    border-radius: 15px ;
+ }
+
+ /* ======================== FOOTER ========================  */
+
+ .contenedor-footer {
+    background: linear-gradient(to bottom, #ffff00, rgb(255, 119, 0));
+    margin: 3% 0% 0% 0%;
+    padding:60px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #ffffff;
+    box-shadow: inset 0 0 10px #e2dbdb;
+    border-radius: 10px ;
+ }
+
+ .tittle-footer {
+    font-family: sans-serif;
+    color: #ffffff;
+    font-size: 32px;
+ }
+
+ @media (max-width: 768px) {
+    .header, .contenedor-main, .div1, .div2, .contenedor-footer {
+        margin: 5% 2%;
+    }
+
+    .encabezado, .tittle-main, .tittle-div1 {
+        font-size: 20px;
+    }
+
+    .parrafo-div1, .parrafo-div2, .parrafo-div3 {
+        margin: 0% 5%;
+    }
+
+    .button-div {
+        font-size: 20px;
+    }
+
+}  
+
+    
